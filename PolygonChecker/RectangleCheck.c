@@ -26,11 +26,4 @@ void RectangleCheck(POINT p1, POINT p2, POINT p3, POINT p4) {
         printf("The four points do not form a rectangle.\n");
     }
 }
-int main(void) {
-    POINT p1 = { -3.0, 5.0 };       //All hardcode
-    POINT p2 = { 4.0, 5.0 };
-    POINT p3 = { -3.0, 2.0 };
-    POINT p4 = { 4.0, 2.0 };
-    RectangleCheck(p1, p2, p3, p4);
-    return 0;
-}
+
