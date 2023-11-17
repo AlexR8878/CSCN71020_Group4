@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdlib.h>
 #include "main.h"
 #include "triangleangle.h"
 #include "triangleSolver.h"
@@ -26,8 +27,12 @@ int main() {
 		case 2:
 			printf("Triangle inside angles selected\n");
 			getTriangleSides(triangleSides);
-			FindAnglesOfTriangle(triangleSides[0], triangleSides[1], triangleSides[2]);
+			float angle[3];
+			FindAnglesOfTriangle(triangleSides[0], triangleSides[1], triangleSides[2], angle);
 			break;
+		case 3:
+			printf("Rectangele selecte.\n");
+
 		case 0:
 			continueProgram = false;
 			break;
@@ -53,10 +58,16 @@ int printShapeMenu() {
 	printf_s("0. Exit\n");
 
 	int shapeChoice;
-
+	int numberScaned;
 	printf_s("Enter number: ");
-	scanf_s("%1o", &shapeChoice);
 
+	numberScaned = scanf_s("%d", &shapeChoice);
+	/*if (numberScaned != 1 || 0 < shapeChoice < 3) {
+
+		fprintf(stderr, "Invalid try agai.\n");
+		fflush(stdin);
+		return 6;
+	}*/
 	return shapeChoice;
 }
 
