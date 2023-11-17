@@ -23,6 +23,9 @@ void FindAnglesOfTriangle(float a, float b, float c, float Angles[]) {
 	}
 	else {
 		fprintf(stderr, "This does form a triangle.");
-		exit(0);
+		Angles[0] = 0;
+		Angles[1] = 0;
+		Angles[2] = 0;
+		return;
 	}
 }

@@ -29,6 +29,9 @@ int main (void) {
             printf("Triangle inside angles selected\n");
             getTriangleSides(triangleSides);
             float Angles[3];
+            for (int i = 0; i < 3; i++) {
+
+            }
             FindAnglesOfTriangle(triangleSides[0], triangleSides[1], triangleSides[2], Angles);
             break;
 
