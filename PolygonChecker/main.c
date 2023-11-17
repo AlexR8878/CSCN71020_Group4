@@ -31,6 +31,33 @@ int main (void) {
             float Angles[3];
             FindAnglesOfTriangle(triangleSides[0], triangleSides[1], triangleSides[2], Angles);
             break;
+
+        case 3:
+            printf("Rectangle Selected\n");
+            double area;
+            double perimeter;
+            bool isRectangle;
+            int points[4][2];
+            
+
+            //Prompt the user to enter the 4 points
+            printf("You will be entering 4 points a toal of 4 times.");
+            for (int i = 0; i < 4; i++) {
+                printf("\nPlease enter a point in x y format, for example; 3 4. ");
+                int scanResult = scanf_s("%d %d", &points[i][0], &points[i][1]);
+
+                //if the user enters anything other than a digit the program exits
+                if (scanResult == 0) {
+                    printf("Not a valid number");
+                    exit(1);
+
+                }
+            }
+            fourPoints(points, &area, &perimeter, &isRectangle);
+
+
+            break;
+
         case 0:
             continueProgram = false;
             break;
@@ -53,6 +80,7 @@ void printWelcome() {
 int printShapeMenu() {
     printf_s("1. Triangle\n");
     printf_s("2. Triangle inside angle\n");
+    printf_s("3. Rectangle\n");
     printf_s("0. Exit\n");
 	int shapeChoice;
 	//rintf_s("Enter number: ");
@@ -64,6 +92,7 @@ int printShapeMenu() {
         printf("Invalid input, try again:\n\n");
         printf_s("1. Triangle\n");
         printf_s("2. Triangle inside angle\n");
+        printf_s("3. Rectangle\n");
         printf_s("0. Exit\n");
         printf_s("Enter number: ");
        

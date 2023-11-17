@@ -1,3 +1,3 @@
 #pragma once
 //Function for creating four points
-int fourPoints(double* area, double* perimeter, bool* isRectangle);
+void fourPoints(int points[4][2], double* area, double* perimeter, bool* isRectangle);
