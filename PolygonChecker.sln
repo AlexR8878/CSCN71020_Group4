@@ -1,19 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-<<<<<<< HEAD
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PolygonChecker", "PolygonChecker\PolygonChecker.vcxproj", "{2328FAE1-A1BF-420F-9F0C-C7CCC7F13314}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriangleAngleUnitTest", "TriangleAngleUnitTest\TriangleAngleUnitTest.vcxproj", "{4DC826BF-8B50-46A6-BF22-A02A1F65511F}"
-=======
-VisualStudioVersion = 17.7.34031.279
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PolygonChecker", "PolygonChecker\PolygonChecker.vcxproj", "{2328FAE1-A1BF-420F-9F0C-C7CCC7F13314}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestTriangleSolver", "UnitTestTriangleSolver\UnitTestTriangleSolver.vcxproj", "{2A4465CF-43B2-4ABA-87BE-F7C2262950FB}"
->>>>>>> 2ce5c0e91dbecf2eba55cbed59a47a34a447a18f
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,7 +25,6 @@ Global
 		{2328FAE1-A1BF-420F-9F0C-C7CCC7F13314}.Release|x64.Build.0 = Release|x64
 		{2328FAE1-A1BF-420F-9F0C-C7CCC7F13314}.Release|x86.ActiveCfg = Release|Win32
 		{2328FAE1-A1BF-420F-9F0C-C7CCC7F13314}.Release|x86.Build.0 = Release|Win32
-<<<<<<< HEAD
 		{4DC826BF-8B50-46A6-BF22-A02A1F65511F}.Debug|x64.ActiveCfg = Debug|x64
 		{4DC826BF-8B50-46A6-BF22-A02A1F65511F}.Debug|x64.Build.0 = Debug|x64
 		{4DC826BF-8B50-46A6-BF22-A02A1F65511F}.Debug|x86.ActiveCfg = Debug|Win32
@@ -40,7 +33,6 @@ Global
 		{4DC826BF-8B50-46A6-BF22-A02A1F65511F}.Release|x64.Build.0 = Release|x64
 		{4DC826BF-8B50-46A6-BF22-A02A1F65511F}.Release|x86.ActiveCfg = Release|Win32
 		{4DC826BF-8B50-46A6-BF22-A02A1F65511F}.Release|x86.Build.0 = Release|Win32
-=======
 		{2A4465CF-43B2-4ABA-87BE-F7C2262950FB}.Debug|x64.ActiveCfg = Debug|x64
 		{2A4465CF-43B2-4ABA-87BE-F7C2262950FB}.Debug|x64.Build.0 = Debug|x64
 		{2A4465CF-43B2-4ABA-87BE-F7C2262950FB}.Debug|x86.ActiveCfg = Debug|Win32
@@ -49,7 +41,6 @@ Global
 		{2A4465CF-43B2-4ABA-87BE-F7C2262950FB}.Release|x64.Build.0 = Release|x64
 		{2A4465CF-43B2-4ABA-87BE-F7C2262950FB}.Release|x86.ActiveCfg = Release|Win32
 		{2A4465CF-43B2-4ABA-87BE-F7C2262950FB}.Release|x86.Build.0 = Release|Win32
->>>>>>> 2ce5c0e91dbecf2eba55cbed59a47a34a447a18f
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
