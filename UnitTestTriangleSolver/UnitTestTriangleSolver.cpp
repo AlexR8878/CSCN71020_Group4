@@ -7,8 +7,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTestTriangleSolver
 {
-	TEST_CLASS(UnitTestTriangleSolver)
-	{
+	TEST_CLASS(UnitTestTriangleSolver) {
 	public:
 		//EquilateralTriangleTest
 		TEST_METHOD(EquilateralTriangleTest1)

@@ -42,25 +42,25 @@ void fourPoints(int points[4][2], double* area, double* perimeter, bool* isRecta
 	//Checks to see if the points align to make a reactangle
 	//When the rectangle is just a singular horizontal line
 	if (points[topRight][0] == points[bottomRight][0] && points[topRight][1] == points[bottomRight][1] && points[topLeft][1] == points[bottomLeft][1] && points[topLeft][1] == points[bottomLeft][1]) {
-		printf("This does not a rectangle");
+		printf("This does not form a rectangle");
 		*isRectangle = false;
 		return;
 	}
 	//When the rectangle is just a singular horizontal line
 	else if (points[bottomLeft][0] == points[bottomRight][0] && points[bottomLeft][1] == points[bottomRight][1] && points[topLeft][1] == points[topRight][1] && points[topLeft][1] == points[topRight][1]) {
-		printf("This does not a rectangle");
+		printf("This does not form a rectangle");
 		*isRectangle = false;
 		return;
 	}
 	//When bottom left and top left points don't align
 	else if (points[bottomLeft][0] != points[topLeft][0] || points[bottomLeft][1] != points[bottomRight][1]) {
-		printf("This does not a rectangle");
+		printf("This does not form a rectangle");
 		*isRectangle = false;
 		return;
 	}
 	//When bottom right and top right points don't align
 	else if (points[topRight][0] != points[bottomRight][0] || points[topRight][1] != points[topLeft][1]) {
-		printf("This does not a rectangle");
+		printf("This does not form a rectangle");
 		*isRectangle = false;
 		return;
 	}
